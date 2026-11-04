@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos del proyecto
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modelos y resultados generados
+artifacts/*
+!artifacts/.gitkeep
+
+# Archivos locales
+.env
+.env.*
+.vscode/
+.DS_Store
+Thumbs.db
