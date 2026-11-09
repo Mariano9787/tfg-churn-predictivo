@@ -1,0 +1,9 @@
+{
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pandas": "3.1.0",
+  "scikit_learn": "1.9.1",
+  "xgboost": "3.4.1",
+  "shap": "0.54.1",
+  "generated_at_utc": "2026-11-09T02:29:13.013900+00:00"
+}

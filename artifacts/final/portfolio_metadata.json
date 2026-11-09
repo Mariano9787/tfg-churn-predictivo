@@ -1,0 +1,14 @@
+{
+  "source_sha256": "16320c9c1ec72448db59aa0a26a0b95401046bef5d02fd3aeb906448e3055e91",
+  "rows": 7043,
+  "folds": 5,
+  "shap_space": "log_odds",
+  "selected_family": "xgboost",
+  "include_sensitive": true,
+  "risk_quantiles": {
+    "q50": 0.3720039129257202,
+    "q80": 0.7424204349517823
+  },
+  "model_criterion_vs_fold_instance": "model_criterion_id identifies chosen configuration; fold_id identifies concrete OOF-producing fit.",
+  "interpretation": "OOF for presentation only, NOT holdout assessment. Contributions are associative, not causal. Relative SHAP values are locally normalized, not comparable as absolute magnitudes across independently fit instances."
+}

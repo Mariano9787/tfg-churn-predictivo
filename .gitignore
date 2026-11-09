@@ -21,3 +21,10 @@ artifacts/*
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Dataset original verificable
+!data/raw/Telco-Customer-Churn.csv
+
+# Artefactos finales necesarios para ejecutar la aplicación
+!artifacts/final/
+!artifacts/final/**

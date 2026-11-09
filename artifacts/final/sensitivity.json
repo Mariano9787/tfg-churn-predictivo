@@ -1,0 +1,12 @@
+{
+  "candidate_model": "xgboost",
+  "ap_cv_full": 0.670191764926145,
+  "ap_cv_reduced": 0.6691213080129119,
+  "paired_difference_full_minus_reduced": 0.001070456913233131,
+  "paired_difference_se": 0.0006808001413076191,
+  "spearman_rho": 0.9972911269672733,
+  "top_10_percent_overlap": 0.9432624113475178,
+  "sensitive_features_retained": true,
+  "decision_rule": "Retain sensitive attributes only if 5-fold paired AP improvement exceeds 1 SE; otherwise prefer parsimonious exclusion. This is not a statistical fairness guarantee.",
+  "limitation": "Five folds are not independent; SE is a heuristic. AP depends on prevalence."
+}

@@ -1,0 +1,14 @@
+{
+  "selected_family": "xgboost",
+  "include_sensitive": true,
+  "train_n": 5634,
+  "test_n": 1409,
+  "test_churn_n": 374,
+  "average_precision": 0.6660366128783416,
+  "roc_auc": 0.8470549484615981,
+  "brier": 0.16198325157165527,
+  "dummy_average_precision": 0.2654364797728886,
+  "dummy_roc_auc": 0.5,
+  "dummy_brier": 0.1949799619120813,
+  "note": "This is the only final holdout evaluation; no re-selection or post-hoc tuning."
+}
